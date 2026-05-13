@@ -33,3 +33,13 @@ RabbitMQ menerima event baru dan meneruskannya ke subscriber untuk diproses.
 
 Percobaan ini menunjukkan bagaimana event-driven architecture memungkinkan publisher dan subscriber 
 berkomunikasi secara asynchronous melalui message broker tanpa harus saling terhubung secara langsung.
+
+
+### Monitoring Chart
+
+![Monitoring Chart](/img/Monitoring-Chart.png)
+
+Saat publisher dijalankan berkali-kali, terlihat adanya spike pada chart RabbitMQ. Hal ini terjadi karena publisher 
+mengirim banyak message ke message broker dalam waktu singkat. RabbitMQ kemudian menerima dan menyimpan message 
+tersebut di queue sebelum diproses oleh subscriber. Semakin sering publisher dijalankan, semakin tinggi spike yang 
+muncul pada chart karena jumlah message yang masuk meningkat.
