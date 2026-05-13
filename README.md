@@ -15,3 +15,21 @@ broker.
 
 ### Running RabbitMQ
 ![RabbitMQ Home Page](/img/RabbitMQ.png)
+
+### Sending and Processing Event
+
+![Sending and Processing Event](/img/Sending-Processing-Event.png)
+
+Pada percobaan ini, publisher dan subscriber berhasil terhubung dengan RabbitMQ sebagai message broker. Ketika 
+program publisher dijalankan menggunakan `cargo run`, publisher mengirimkan 5 event ke RabbitMQ dengan data user 
+yang berbeda.
+
+Subscriber yang sedang berjalan kemudian menerima dan memproses setiap event tersebut. Hal ini terlihat pada 
+console subscriber yang menampilkan message seperti `UserCreatedEventMessage` beserta `user_id` dan `user_name`.
+
+Pada console RabbitMQ juga terlihat adanya koneksi AMQP yang menunjukkan bahwa publisher dan subscriber 
+berhasil terhubung ke message broker menggunakan protokol AMQP. Setiap kali publisher dijalankan kembali, 
+RabbitMQ menerima event baru dan meneruskannya ke subscriber untuk diproses.
+
+Percobaan ini menunjukkan bagaimana event-driven architecture memungkinkan publisher dan subscriber 
+berkomunikasi secara asynchronous melalui message broker tanpa harus saling terhubung secara langsung.
