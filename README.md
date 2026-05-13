@@ -10,3 +10,8 @@ pemanggilan fungsi `publish_event()` yang masing-masing mengirim data user berbe
 URL "amqp://guest:guest@localhost:5672" merupakan alamat koneksi yang digunakan publisher untuk terhubung ke RabbitMQ. 
 URL tersebut berisi protokol AMQP, username, password, host, dan port yang digunakan untuk komunikasi dengan message 
 broker.
+
+<br>
+
+### Running RabbitMQ
+![RabbitMQ Home Page](/img/RabbitMQ.png)
