@@ -1,0 +1,10 @@
+/Users/Sabina_1/Desktop/tutorial9/publisher/target/debug/deps/ahash-0492cbc2ef232413.d: /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs
+
+/Users/Sabina_1/Desktop/tutorial9/publisher/target/debug/deps/libahash-0492cbc2ef232413.rmeta: /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs /Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs
+
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs:
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs:
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs:
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs:
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs:
+/Users/Sabina_1/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs:
